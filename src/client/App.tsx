@@ -1,8 +1,11 @@
 import * as React from 'react';
 import { useState, useEffect } from 'react';
 import './scss/app.css';
+
 import Hero from './components/Hero';
 import Scents from './components/Scents';
+import Products from './components/Products';
+import About from './components/About';
 
 /* HOOK REACT EXAMPLE */
 const App = (props: AppProps) => {
@@ -21,6 +24,8 @@ const App = (props: AppProps) => {
     <main>
       <Hero />
       <Scents />
+      <Products />
+      <About />
     </main>
   );
 };

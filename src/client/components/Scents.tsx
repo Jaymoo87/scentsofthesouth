@@ -4,7 +4,7 @@ type Props = {};
 
 const Scents = (props: Props) => {
   return (
-    <section className="py-8 bg-white border-b">
+    <section className="py-8 bg-gray-100 border-b">
       <div className="container max-w-5xl m-4 mx-auto">
         <h2 className="w-full my-2 text-5xl font-bold leading-tight text-center text-gray-800">
           Scents from the South
