@@ -5,7 +5,7 @@ type Props = {};
 const Hero = (props: Props) => {
   return (
     <>
-      <div className="pt-24">
+      <div className="pt-24 mt-48">
         <div className="container flex flex-col flex-wrap items-center px-3 mx-auto md:flex-row">
           {/* --Left Col--  */}
           <div className="flex flex-col items-start justify-center w-full text-center md:w-2/5 md:text-left">
@@ -15,12 +15,12 @@ const Hero = (props: Props) => {
               Sub-hero message, not too long and not too short. Make it just right!
             </p>
             <button className="px-8 py-4 mx-auto my-6 font-bold text-gray-800 transition duration-300 ease-in-out transform bg-white rounded-full shadow-lg lg:mx-0 hover:underline focus:outline-none focus:shadow-outline hover:scale-105">
-              Subscribe
+              Check Out Our Candles
             </button>
           </div>
           {/* --Right Col--  */}
-          <div className="w-full py-6 text-center md:w-3/5 ">
-            <div className="z-50 w-full md:w-4/5 bg[url(../../../../assets/masonJarCandles.png)] " />
+          <div className="w-full px-5 py-6 text-center md:w-3/5">
+            <img className="z-50 w-full rounded-lg shadow-lg " src="../../../../assets/CandleOnThePond.png" />
           </div>
         </div>
       </div>

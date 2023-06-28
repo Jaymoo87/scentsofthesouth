@@ -4,7 +4,7 @@ type Props = {};
 
 const Scents = (props: Props) => {
   return (
-    <section className="py-8 bg-gray-100 border-b">
+    <section className="py-8 bg-white border-b">
       <div className="container max-w-5xl m-4 mx-auto">
         <h2 className="w-full my-2 text-5xl font-bold leading-tight text-center text-gray-800">
           Scents from the South
@@ -14,16 +14,11 @@ const Scents = (props: Props) => {
         </div>
         <div className="flex flex-wrap">
           <div className="w-5/6 p-6 sm:w-1/2">
-            <h3 className="mb-3 text-3xl font-bold leading-none text-gray-800">Lorem ipsum dolor sit amet</h3>
+            <h3 className="mb-3 text-3xl font-bold leading-none text-gray-800">Featured Scent</h3>
             <p className="mb-8 text-gray-600">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu nunc commodo posuere et sit
-              amet ligula.
+              Scent descrption
               <br />
               <br />
-              Images from:
-              <a className="text-pink-500 underline" href="https://undraw.co/">
-                undraw.co
-              </a>
             </p>
           </div>
           <div className="w-full p-6 sm:w-1/2">
@@ -410,16 +405,11 @@ const Scents = (props: Props) => {
           </div>
           <div className="w-full p-6 mt-6 sm:w-1/2">
             <div className="align-middle">
-              <h3 className="mb-3 text-3xl font-bold leading-none text-gray-800">Lorem ipsum dolor sit amet</h3>
+              <h3 className="mb-3 text-3xl font-bold leading-none text-gray-800">Featured Deal</h3>
               <p className="mb-8 text-gray-600">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu nunc commodo posuere et sit
-                amet ligula.
+                Special deal description
                 <br />
                 <br />
-                Images from:
-                <a className="text-pink-500 underline" href="https://undraw.co/">
-                  undraw.co
-                </a>
               </p>
             </div>
           </div>
